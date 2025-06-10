@@ -1,0 +1,28 @@
+a:hover{
+    color: green;
+}
+a:link{
+    color: orange;
+}
+a:visited{
+    color:red
+}
+a:active{
+    color:  black;
+}
+p:hover{
+    color: red;
+}
+p:active{
+    background-color: lightcoral;
+}
+button:hover{
+    color: red;
+    background: lightblue
+}
+input:focus{
+padding: 10px;
+outline: none;
+background-color: aqua;
+}
+

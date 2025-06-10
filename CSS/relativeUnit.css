@@ -1,0 +1,14 @@
+html{
+font-size: 10px;
+}
+.div1{
+    border: 2px solid red;
+    width: 50%;
+}
+.p1{
+   border: 2px solid green; 
+   width: 50%;
+}
+.div2 p{
+    font-size: 4.5rem;
+}

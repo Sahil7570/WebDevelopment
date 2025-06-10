@@ -1,0 +1,9 @@
+h1{
+font-size: 100px;
+text-decoration: underline solid lightcoral;
+text-align: center;
+letter-spacing: 2px;
+}
+p{
+word-spacing: 2px;
+}

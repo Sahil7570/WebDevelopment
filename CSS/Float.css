@@ -1,0 +1,48 @@
+.favourite-games{
+    width: 100%;
+    margin: 10px;
+    padding: 2px;
+}
+.spider-man{
+    background-color: coral;
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-bottom: 2px;
+   
+ 
+}
+.gta-V{
+    background-color: lightcyan;
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-bottom: 2px;
+   
+  
+    
+}
+
+.battle-field{
+    background-color: lightpink;
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-bottom: 2px;
+  
+}
+.Pubg{
+    background-color: lightblue;
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-bottom: 2px;
+  
+}
+/* .clearfix{
+    clear: both;
+} */
+::after{
+    content:none ;
+    clear: both;
+}
