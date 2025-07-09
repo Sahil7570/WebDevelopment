@@ -526,9 +526,8 @@ label::after {
   }
 }
 
-@media (min-width: 501px) and (max-width: 768px){
-
-    html {
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
     font-size: 50%;
   }
 
@@ -540,9 +539,9 @@ label::after {
     text-align: center;
   }
 
-p{
+  p {
     font-size: 1.8rem;
-}
+  }
 
   .row {
     height: auto;
@@ -593,18 +592,18 @@ p{
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px){
-    html{
-        font-size: 56.25%;
-    }
-    .row .text-box h2{
-        font-size: 2.25rem;
-        font-weight: 500;
-    }
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+  .row .text-box h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
 }
 
-@media (orientation: landscape) and (max-height: 500px){
-    .header{
-        height: 90vmax;
-    }
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
 }
