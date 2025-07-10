@@ -1,0 +1,15 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background: lightcoral;
+  margin: 10rem auto;
+  transition: transform 1s ease-in-out;
+}
+
+.box:hover {
+  transform: rotate(360deg);
+  transform: translate(50px);
+  transform: skewX(20deg);
+  transform: scale(1);
+}
+        
