@@ -1,0 +1,39 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin-top: 1rem;
+    animation-name: bg-color-change;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+.box-1{
+    width: 5px;
+    height: 10px;
+    background-color: blue;
+    margin-top: 2rem;
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes bg-color-change{
+    from{
+   background-color: red;
+    }
+    to{
+           background-color: lightblue;
+    }
+}
+
+@keyframes grow{
+    from{
+        width: 5px;
+    }
+    to{
+        width: 100%;
+    }
+}
