@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -39,13 +40,13 @@ h3 {
   font-weight: 500;
 }
 
-/* utility classes */
-
+/* Utility classes */
 .container {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
+
 .lg-heading {
   font-size: 3.5rem;
 }
@@ -96,6 +97,7 @@ h3 {
   background-color: #fcf3f2;
 }
 
+/* Header styles */
 .header {
   height: 98vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -113,6 +115,7 @@ h3 {
 .navbar .logo {
   float: left;
 }
+
 .navbar .nav-items {
   float: right;
   margin-top: 1rem;
@@ -141,7 +144,7 @@ h3 {
   display: block;
   clear: both;
 }
-/* header */
+
 .header-content {
   position: absolute;
   top: 50%;
@@ -159,7 +162,7 @@ h3 {
   text-transform: uppercase;
 }
 
-/* section area */
+/* Showcase section */
 .showcase {
   background: #ddd;
   padding: 10rem 0;
@@ -207,7 +210,7 @@ h3 {
   clear: both;
 }
 
-/* feature section  */
+/* Features section */
 .features {
   padding: 10rem 0;
 }
@@ -240,7 +243,7 @@ h3 {
   color: #fff;
 }
 
-/* foooter */
+/* Footer */
 .footer {
   background-color: #263238;
   color: #f4f4f4;
@@ -256,7 +259,7 @@ h3 {
   background-color: #263238;
 }
 
-/* About page styling  */
+/* About page styles */
 .about {
   padding: 5rem 0;
 }
@@ -268,7 +271,6 @@ h3 {
   width: 100%;
 }
 
-/* /about wrapper */
 .about-wrapper {
   text-align: center;
   margin-top: 2rem;
@@ -294,7 +296,7 @@ h3 {
   padding-right: 1rem;
 }
 
-/* /count styling  */
+/* Counts section */
 .counts {
   margin-top: 3rem;
 }
@@ -322,8 +324,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-/* banner */
-
+/* Call to action banner */
 .cta-banner {
   background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
   color: #f4f4f4;
@@ -359,13 +360,14 @@ h3 {
   letter-spacing: 0.5rem;
   color: #f4f4f4;
 }
+
 .cta-banner::after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* contact page styling */
+/* Contact page styles */
 .contact-form {
   padding: 5rem 0;
   background: #f7f7f7;
@@ -413,8 +415,6 @@ h3 {
   object-position: right;
 }
 
-/* form styling */
-
 .form h1::after {
   content: "";
   display: block;
@@ -459,12 +459,11 @@ label::after {
   cursor: pointer;
 }
 
-/* Media queries */
+/* Responsive styles */
 @media (max-width: 500px) {
   html {
     font-size: 50%;
   }
-
   .navbar .nav-items,
   .navbar .logo {
     float: none;
@@ -472,57 +471,39 @@ label::after {
     width: 100%;
     text-align: center;
   }
-
   .header-content .main-heading {
     display: none;
   }
-
-  .row {
-    height: auto;
-    width: 100%;
-  }
-
+  .row,
   .row .img-box,
   .row .text-box {
     float: none;
     width: 100%;
     text-align: center;
+    height: auto;
   }
-
   .features .box {
     float: none;
     width: 100%;
     text-align: center;
     box-shadow: 5px 5px 20px 0px #00000037;
   }
-
   .features .box-2,
   .features .box-3 {
     margin-top: 7rem;
   }
-
-  .box-wrapper {
-    box-shadow: none;
-  }
-
   .cta-banner-left,
   .cta-banner-right {
     float: none;
     width: 100%;
     text-align: center;
   }
-
-  .form-wrapper .company-adress {
-    float: none;
-    width: 100%;
-    height: auto;
-    margin-bottom: 5rem;
-  }
-
+  .form-wrapper .company-adress,
   .form-wrapper .form {
     float: none;
     width: 100%;
     height: auto;
+    margin-bottom: 5rem;
   }
 }
 
@@ -530,7 +511,6 @@ label::after {
   html {
     font-size: 50%;
   }
-
   .navbar .nav-items,
   .navbar .logo {
     float: none;
@@ -538,57 +518,39 @@ label::after {
     width: 100%;
     text-align: center;
   }
-
   p {
     font-size: 1.8rem;
   }
-
-  .row {
-    height: auto;
-    width: 100%;
-  }
-
+  .row,
   .row .img-box,
   .row .text-box {
     float: none;
     width: 100%;
     text-align: center;
+    height: auto;
   }
-
   .features .box {
     float: none;
     width: 100%;
     text-align: center;
     box-shadow: 5px 5px 20px 0px #00000037;
   }
-
   .features .box-2,
   .features .box-3 {
     margin-top: 7rem;
   }
-
-  .box-wrapper {
-    box-shadow: none;
-  }
-
   .cta-banner-left,
   .cta-banner-right {
     float: none;
     width: 100%;
     text-align: center;
   }
-
-  .form-wrapper .company-adress {
-    float: none;
-    width: 100%;
-    height: auto;
-    margin-bottom: 5rem;
-  }
-
+  .form-wrapper .company-adress,
   .form-wrapper .form {
     float: none;
     width: 100%;
     height: auto;
+    margin-bottom: 5rem;
   }
 }
 
@@ -607,3 +569,4 @@ label::after {
     height: 90vmax;
   }
 }
+
