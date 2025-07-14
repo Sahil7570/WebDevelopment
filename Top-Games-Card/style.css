@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(0, 0, 0, 0.893);
+}
+
+.Games {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  gap: 5px;
+
+
+}
+
+.Game-card {
+  width: 30%;
+  padding: 0.5rem;
+  margin: auto;
+  text-align: center;
+  /* border: 2px solid red; */
+  color: white;
+  /* border-radius: 2rem; */
+  transition: all 0.5s ease-in-out;
+}
+
+.Game-card:hover {
+  transform: scale(1.1);
+}
+
+.Game-card a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px;
+  margin-top: 8px;
+  background: rgb(240, 207, 40);
+  color: black;
+  font-weight: 800;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.Game-card img {
+  width: 100%;
+  display: block;
+  border-radius: 2rem;
+}
+
+.Game-card .About-Game {
+  margin: 1rem;
+}
+.About-Game p {
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+p:hover {
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.Game-card a:hover {
+  background: orange;
+}
+
+
+/* customizable border */
+
+.Game-card::after{
+    content: '';
+    color: white;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    z-index: -1;
+}
+ 
+
+
+.Game-card:hover::after{
+    border-radius: 2rem ;
+    background-color: rgba(255, 255, 255, 0.087);
+    /* opacity: 1; */
+
+}
+
+
+.Game-card{
+    position: relative;
+}
